@@ -19,7 +19,7 @@
 ## installation
 
 ```
-go get github.com/kenjitheman/portscanner
+git clone https://github.com/kenjitheman/portscanner
 ```
 
 ## usage
