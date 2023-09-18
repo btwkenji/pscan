@@ -10,7 +10,7 @@
 
 ## project structure:
 
-```
+```rust
 ├── LICENSE
 ├── portscan.cpp
 └── README.md
@@ -18,7 +18,7 @@
 
 ## installation
 
-```
+```shell
 git clone https://github.com/kenjitheman/portscanner
 ```
 
@@ -26,19 +26,19 @@ git clone https://github.com/kenjitheman/portscanner
 
 - compile c++
 
-```
+```shell
 g++ portscanner.cpp -o portscanner
 ```
 
 - run the portscanner
 
-```
+```shell
 ./portscanner <targetIP> <timeout>
 ```
 
 - example:
 
-```
+```shell
 ./portscanner 192.168.1.100 2
 ```
 
