@@ -1,4 +1,4 @@
-## port scanner using c++
+## Port scanner using c++
 
 ###
 
@@ -8,7 +8,7 @@
 
 ###
 
-## project structure:
+## Project structure:
 
 ```rust
 ├── LICENSE
@@ -16,39 +16,39 @@
 └── README.md
 ```
 
-## installation
+## Installation
 
 ```shell
 git clone https://github.com/kenjitheman/portscanner
 ```
 
-## usage
+## Usage
 
-- compile c++
+- Compile c++
 
 ```shell
 g++ portscanner.cpp -o portscanner
 ```
 
-- run the portscanner
+- Run the portscanner:
 
 ```shell
 ./portscanner <targetIP> <timeout>
 ```
 
-- example:
+- Example:
 
 ```shell
 ./portscanner 192.168.1.100 2
 ```
 
-- scan all ports on the IP address 192.168.1.100 with a timeout of 2 seconds for each port
+- Scan all ports on the IP address 192.168.1.100 with a timeout of 2 seconds for each port.
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
