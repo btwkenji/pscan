@@ -18,7 +18,7 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/kenjitheman/portscanner
 ```
 
@@ -26,19 +26,19 @@ git clone https://github.com/kenjitheman/portscanner
 
 - Compile c++
 
-```shell
+```sh
 g++ portscanner.cpp -o portscanner
 ```
 
 - Run the portscanner:
 
-```shell
+```sh
 ./portscanner <targetIP> <timeout>
 ```
 
 - Example:
 
-```shell
+```sh
 ./portscanner 192.168.1.100 2
 ```
 
